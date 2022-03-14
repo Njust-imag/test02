@@ -1,0 +1,63 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\src\\pages"
+      }
+    ],
+    "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules\\react-static-plugin-react-router\\browser.api.js",
+    "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home",
+    "SRC": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\src",
+    "DIST": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\dist",
+    "ASSETS": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\dist",
+    "PLUGINS": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\plugins",
+    "TEMP": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\tmp",
+    "ARTIFACTS": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\artifacts",
+    "PUBLIC": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\public",
+    "NODE_MODULES": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\node_modules",
+    "PACKAGE": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\10185\\Desktop\\imag-home-3-9\\imag-home\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
